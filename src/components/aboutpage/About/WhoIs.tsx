@@ -44,14 +44,6 @@ const WhoIs = () => {
               well-deserved spotlight.
               <br />
               <br />
-              Shiren Rattigan's accomplishments and innovative practices have
-              been featured in Forbes, Sun-Sentinel and NPR. With a commitment
-              to student-centric learning, Shiren has nurtured a nurturing and
-              stimulating environment at her microschool, Colossal Academy,
-              where young minds flourish and reach their full potential as CEOs
-              of their own business.
-              <br />
-              <br />
               Her expertise in fostering a love for learning and cultivating
               critical thinking skills sets her apart as a microschool owner par
               excellence.

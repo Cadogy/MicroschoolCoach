@@ -20,7 +20,7 @@ const WhyShiren = () => {
         <div className='aboutFlexBox mt-6 flex w-[80%] gap-16 p-6'>
           <div className='aboutFlexBoxContainer flex w-[100%] flex-col items-center justify-center text-center'>
             <img
-              className='w-[100px] rounded-3xl bg-[rgb(255,173,173)] p-4'
+              className='w-[100px] rounded-3xl bg-[rgb(255,173,173)]/50 p-4'
               src='/images/icons/laptop--v1.png'
               alt=''
             />
@@ -30,7 +30,7 @@ const WhyShiren = () => {
           </div>
           <div className='aboutFlexBoxContainer flex w-[100%] flex-col items-center justify-center text-center'>
             <img
-              className='w-[100px] rounded-3xl bg-[rgb(255,173,173)] p-4'
+              className='w-[100px] rounded-3xl bg-[rgb(255,173,173)]/50 p-4'
               src='/images/icons/price-comparison.png'
               alt=''
             />
@@ -40,7 +40,7 @@ const WhyShiren = () => {
           </div>
           <div className='aboutFlexBoxContainer flex w-[100%] flex-col items-center justify-center text-center'>
             <img
-              className='w-[100px] rounded-3xl bg-[rgb(255,173,173)] p-4'
+              className='w-[100px] rounded-3xl bg-[rgb(255,173,173)]/50 p-4'
               src='/images/icons/expensive-2.png'
               alt=''
             />
@@ -50,7 +50,7 @@ const WhyShiren = () => {
           </div>
           <div className='aboutFlexBoxContainer flex w-[100%] flex-col items-center justify-center text-center'>
             <img
-              className='w-[100px] rounded-3xl bg-[rgb(255,173,173)] p-4'
+              className='w-[100px] rounded-3xl bg-[rgb(255,173,173)]/50 p-4'
               src='/images/icons/map-marker.png'
               alt=''
             />

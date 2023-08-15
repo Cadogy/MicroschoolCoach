@@ -1,44 +1,96 @@
-import React from 'react'
+import React from 'react';
 
 const Contactlayout = () => {
   return (
-  <div className="relative bg-primary-500/30 h-full py-32 flex flex-col items-center gap-16 text-gray-700">
-    <div className='absolute inset-0 origin-bottom-left transform bg-gradient-to-b from-white to-[rgba(255,173,173,0.2)]'></div>
-    <div className='w-full flex flex-col justify-center items-center gap-6 z-[100]'>
-        <h1 className='text-[3em] font-junge'>Got <span className='text-primary-500'>Questions</span>? I’ve got <span className='text-primary-500'>Answers</span>.</h1>
-        <p className='w-2/3 text-[1.5em] leading-10 max-w-[1000px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. </p>
-    </div>
-    <div className="bg-white p-10 md:w-2/3 lg:w-1/2 mx-auto rounded-[1.5rem] z-[100]">
-      <form action="">
-
-        <div className="flex items-center mb-5">
-          <label for="name" className="w-20 inline-block text-left mr-4 text-gray-500">Name</label>
-          <input name="name" id="name" type="text" placeholder="Your name" className="border-b-2 border-white border-b-gray-400 flex-1 py-2 placeholder-gray-300 outline-none focus:border-white hover:border-b-primary-500/60 focus:border-b-primary-500 focus:ring-0"></input>
-        </div>
-
-        <div className="flex items-center mb-5">
-          <label for="email" className="w-20 inline-block text-left mr-4 text-gray-500">Email</label>
-          <input type="email" name="email" id="email" placeholder="Your email address" className="border-b-2 border-white border-b-gray-400 flex-1 py-2 placeholder-gray-300 outline-none focus:border-white hover:border-b-primary-500/60 focus:border-b-primary-500 focus:ring-0"></input>
-        </div>
-
-        <div className="flex items-center mb-5">
-          <label for="phone" className="w-20 inline-block text-left mr-4 text-gray-500">Phone</label>
-          <input type="tel" name="phone" id="phone" placeholder="Your phone number" className="border-b-2 border-white border-b-gray-400 flex-1 py-2 placeholder-gray-300 outline-none focus:border-white hover:border-b-primary-500/60 focus:border-b-primary-500 focus:ring-0"></input>
-        </div>
-
-        <div className="flex items-center mb-10">
-            <label htmlFor="message" className="w-20 inline-block text-left mr-4 text-gray-500">Message</label>
-            <textarea name="message" id="message" placeholder="Send a message so I know how I can best help!" rows="4" className="border-b-2 border-white border-b-gray-400 flex-1 py-2 placeholder-gray-300 hover:border-b-primary-500/60 focus:border-white focus:border-b-primary-500 focus:ring-0" />
+    <div className='bg-primary-500/30 relative flex h-full flex-col items-center gap-16 py-32 text-gray-700'>
+      <div className='absolute inset-0 origin-bottom-left transform bg-gradient-to-b from-white to-[rgba(255,173,173,0.2)]'></div>
+      <div className='z-[100] flex w-full flex-col items-center justify-center gap-6'>
+        <h1 className='font-junge text-center text-[3.5em] font-normal'>
+          Got <span className='text-primary-500'>Questions</span>? I’ve got{' '}
+          <span className='text-primary-500'>Answers</span>.
+        </h1>
+        <p className='m-auto max-w-[968px] text-center text-[1.5em] leading-10'>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit
+          amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore.{' '}
+        </p>
+      </div>
+      <div className='z-[100] mx-auto rounded-[1.5rem] bg-white p-10 md:w-2/3 lg:w-[68%]'>
+        <form action=''>
+          <div className='mb-5 flex items-center'>
+            <label
+              htmlFor='name'
+              className='mr-4 inline-block w-20 text-left text-gray-500'
+            >
+              Name
+            </label>
+            <input
+              name='name'
+              id='name'
+              type='text'
+              placeholder='Your name'
+              className='hover:border-b-primary-500/60 focus:border-b-primary-500 flex-1 border-b-2 border-white border-b-gray-400 py-2 placeholder-gray-300 outline-none focus:border-white focus:ring-0'
+            ></input>
           </div>
-          
-        <div className="text-right">
-          <button className="border-2 border-primary-500 rounded-xl py-3 px-8 font-black text-xl bg-primary-500 text-white hover:shadow-md hover:-translate-y-1 transition-all">Submit</button>
-        </div>
-          
-      </form>
-    </div>
-  </div>
-  )
-}
 
-export default Contactlayout
+          <div className='mb-5 flex items-center'>
+            <label
+              htmlFor='email'
+              className='mr-4 inline-block w-20 text-left text-gray-500'
+            >
+              Email
+            </label>
+            <input
+              type='email'
+              name='email'
+              id='email'
+              placeholder='Your email address'
+              className='hover:border-b-primary-500/60 focus:border-b-primary-500 flex-1 border-b-2 border-white border-b-gray-400 py-2 placeholder-gray-300 outline-none focus:border-white focus:ring-0'
+            ></input>
+          </div>
+
+          <div className='mb-5 flex items-center'>
+            <label
+              htmlFor='phone'
+              className='mr-4 inline-block w-20 text-left text-gray-500'
+            >
+              Phone
+            </label>
+            <input
+              type='tel'
+              name='phone'
+              id='phone'
+              placeholder='Your phone number'
+              className='hover:border-b-primary-500/60 focus:border-b-primary-500 flex-1 border-b-2 border-white border-b-gray-400 py-2 placeholder-gray-300 outline-none focus:border-white focus:ring-0'
+            ></input>
+          </div>
+
+          <div className='mb-10 flex items-center'>
+            <label
+              htmlFor='message'
+              className='mr-4 inline-block w-20 text-left text-gray-500'
+            >
+              Message
+            </label>
+            <textarea
+              name='message'
+              id='message'
+              placeholder='Send a message so I know how I can best help!'
+              rows={4}
+              className='hover:border-b-primary-500/60 focus:border-b-primary-500 flex-1 border-b-2 border-white border-b-gray-400 py-2 placeholder-gray-300 focus:border-white focus:ring-0'
+            />
+          </div>
+
+          <div className='text-right'>
+            <button className='border-primary-500 bg-primary-500 rounded-xl border-2 px-8 py-3 text-xl font-black text-white transition-all hover:-translate-y-1 hover:shadow-md'>
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  );
+};
+
+export default Contactlayout;

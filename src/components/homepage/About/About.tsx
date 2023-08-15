@@ -1,9 +1,9 @@
 import React from 'react';
 
 const aboutCheckMarks = [
-  'Lorem ipsum dolor sit amet',
-  'Lorem ipsum dolor sit amet',
-  'Lorem ipsum dolor sit amet',
+  { description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.' },
+  { description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.' },
+  { description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.' },
 ];
 
 const About = () => {
@@ -41,7 +41,7 @@ const About = () => {
                   <div className='flex w-full items-center justify-center gap-8 sm:justify-start'>
                     <div className='bg-primary-500 h-[32px] w-[32px] rounded-full'></div>
                     <p className='text-[16px] font-normal text-gray-500 lg:text-[20px]'>
-                      Lorem ipsum dolor sit amet
+                      {item.description}
                     </p>
                   </div>
                 ))}
