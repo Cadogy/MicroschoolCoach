@@ -31,7 +31,7 @@ const Contactlayout = () => {
           </div>
           
         <div className="text-right">
-          <button className="py-3 px-8 bg-primary-500 text-green-100 font-bold rounded">Submit</button>
+          <button className="border-2 border-primary-500 rounded-xl py-3 px-8 font-black text-xl bg-primary-500 text-white hover:shadow-md hover:-translate-y-1 transition-all">Submit</button>
         </div>
           
       </form>

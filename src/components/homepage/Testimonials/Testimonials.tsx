@@ -121,7 +121,7 @@ const Testimonials = () => {
               onClick={() => { setActive(index); setAutorotate(false); }} // Set active testimonial and disable autorotation
             >
               {/* Display testimonial name and role */}
-              <span>{testimonial.name}</span> <span className={`${active === index ? 'text-primary-200' : 'text-slate-300'}`}>-</span> <span>{testimonial.role}</span>
+              <span>{testimonial.name} </span> <span>{testimonial.role}</span>
             </button>
           ))}
         </div>

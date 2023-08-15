@@ -10,17 +10,17 @@ const Navbar = () => {
           <Image src={logo1} alt="" className='w-full' />
         </a>
       </div>
-      <div className='w-full h-full flex items-center font-junge font-semibold text-[24px] text-gray-800'>
-        <div className='w-full h-full flex justify-end items-center'>
-          <a href="/about" className="px-8 py-4 rounded-3xl rounded-b-none hover:-translate-y-1 hover:text-primary-500 hover:bg-primary-500 hover:bg-opacity-30 transition-all">About</a>
-          <a href="/blog" className="px-8 py-4 rounded-3xl rounded-b-none hover:-translate-y-1 hover:text-primary-500 hover:bg-primary-500 hover:bg-opacity-30 transition-all">Blog</a>
-          <a href="/contact" className="px-8 rounded-3xl rounded-b-none py-4 hover:-translate-y-1 hover:text-primary-500 hover:bg-primary-500 hover:bg-opacity-30 transition-all">Contact</a>
-          <a href="/resources" className="px-8 py-4 rounded-3xl rounded-b-none hover:-translate-y-1 hover:text-primary-500  hover:bg-primary-500 hover:bg-opacity-30 transition-all">Resources</a>
+      <div className='w-full h-full flex items-center font-junge font-medium text-[20px] text-gray-700'>
+        <div className='w-full h-full flex justify-center items-center divide-x-2'>
+          <a href="/about" className="px-10 hover:-translate-y-1 hover:text-primary-500 transition-all">About</a>
+          <a href="/blog" className="px-10 hover:-translate-y-1 hover:text-primary-500 transition-all">Blog</a>
+          <a href="/contact" className="px-10 hover:-translate-y-1 hover:text-primary-500 transition-all">Contact</a>
+          <a href="/resources" className="px-10 hover:-translate-y-1 hover:text-primary-500  transition-all">Resources</a>
         </div>
-        <button className='w-full bg-primary-500 hover:bg-primary-400 px-8 py-4 mr-10 rounded-xl font-medium text-white font-primary hover:shadow-xl transition-all max-w-[250px]'>
+        <button className='w-full bg-primary-500 hover:bg-primary-400 px-8 py-4 mr-10 rounded-xl font-medium text-white font-primary hover:shadow-xl transition-all max-w-[200px]'>
           Book Now
         </button>
-      </div>  
+      </div>
     </div>
   );
 };

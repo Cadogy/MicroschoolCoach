@@ -11,7 +11,7 @@ const Hero = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </p>
         <div className='w-full xl:text-[1.3em] text-[1.1em] font-junge font-semibold flex lg:gap-6 lg:flex-row flex-col'>
-          <button className='bg-primary-500 lg:w-1/2 w-full h-[70px] font-extrabold rounded-[0.6rem]'>
+          <button className='border-2 border-primary-500 rounded-xl py-4 px-4 font-black font-junge bg-primary-500 text-white hover:shadow-md hover:-translate-y-1 transition-all'>
             Book Private Session
           </button>
           <div className='lg:w-1/2 w-full h-full flex items-center'>
