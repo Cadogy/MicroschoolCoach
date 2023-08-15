@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { BsPlayCircle } from 'react-icons/bs';
+import { MdSchool } from 'react-icons/md';
 
 const Hero = () => {
   return (
     <div>
-      <div className='aboutHeroContainer flex h-[90vh] items-center justify-center'>
+      <div className='flex h-[90vh] w-full flex-col-reverse items-center justify-center px-4 md:flex-row md:gap-16 md:px-12 2xl:gap-24 2xl:px-0'>
         <div className='aboutGridContainer'>
           <div className='aboutFlexBox flex max-w-[90rem] flex-nowrap items-center p-6'>
             <div className='aboutFlexBoxContainer flex w-[100%] items-center justify-center'>
@@ -18,9 +19,9 @@ const Hero = () => {
             </div>
 
             <div className='aboutFlexBoxContainer w-[100%] items-center justify-center'>
-              <h1 className='mb-12'>
+              <h1 className='font-junge mb-12 flex text-[3em] font-medium leading-[1em] xl:text-[3.5em]'>
                 The
-                <span className='px-1 text-[rgb(255,173,173)]'>
+                <span className='mx-2 flex text-[rgb(255,173,173)]'>
                   Microschool
                 </span>
                 Maven
@@ -42,7 +43,7 @@ const Hero = () => {
                 </h4>
               </div>
               <div className='mt-8'>
-                <div className='w-[240px] rounded-lg bg-[rgba(255,173,173,1);] p-3 text-center text-[18px] font-bold text-white'>
+                <div className='w-[240px] rounded-lg bg-[rgba(255,173,173,1);] p-3 py-4 text-center text-[18px] font-bold text-white'>
                   Learn more
                 </div>
               </div>
