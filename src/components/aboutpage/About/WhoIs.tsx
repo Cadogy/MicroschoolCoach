@@ -18,7 +18,7 @@ const WhoIs = () => {
       </div>
 
       <div className='aboutGridContainer'>
-        <div className='aboutFlexBox flex max-w-[1620px] flex-row-reverse flex-nowrap items-center p-6'>
+        <div className='aboutFlexBox flex max-w-[1620px] flex-row-reverse flex-nowrap items-center gap-16 p-8'>
           <div className='aboutFlexBoxContainer flex w-[100%] items-center justify-center'>
             <div className='aboutImageContent h-[500px] w-[700px]'>
               <img

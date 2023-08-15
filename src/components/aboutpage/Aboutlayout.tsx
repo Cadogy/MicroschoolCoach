@@ -7,8 +7,8 @@ const Aboutlayout = () => {
   return (
     <div>
       <Hero />
-      <WhyShiren />
       <WhoIs />
+      <WhyShiren />
     </div>
   );
 };
