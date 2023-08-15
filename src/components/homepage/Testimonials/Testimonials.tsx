@@ -60,8 +60,8 @@ const Testimonials = () => {
   return (
     <div className='my-32 flex h-full w-full flex-col items-center justify-center'>
       <div className='mb-16 flex max-w-[1200px] flex-col gap-6 text-center'>
-        <h2 className='font-junge text-primary-500 text-[3rem] leading-[1.1em]'>
-          Coaching Success Stories
+        <h2 className='font-junge text-primary-500 text-[3.5em] font-normal leading-[1.1em]'>
+          Coaching <span className='text-[rgb(0,0,0)]'>Success</span> Stories
         </h2>
         <p className='m-auto w-[70ch] px-4 text-[1.5rem] leading-[1.25em]'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
