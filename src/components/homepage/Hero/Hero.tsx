@@ -22,7 +22,7 @@ const Hero = () => {
         </div>
       </div>
       <div className='2xl:w-1/3 md:w-1/2 w-full md:h-full h-[90%] md:mt-0 mt-6 flex justify-center items-center'>
-        <div className='bg-gray-400 w-full sm:h-[80%] h-full max-w-[800px] rounded-[7rem] rounded-tr-none'>
+        <div className='bg-gray-400 sm:w-[80%] w-full sm:h-[70%] h-full max-w-[600px] rounded-[7rem] rounded-tr-none'>
           <img src="your-image-src.jpg" alt="Your Alt Text" />
         </div>
       </div>
