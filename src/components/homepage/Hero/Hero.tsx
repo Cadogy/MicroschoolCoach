@@ -30,13 +30,22 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className='aboutImageContent relative z-10 flex h-[500px] w-[500px] flex-col items-start rounded-2xl rounded-bl-[28px] rounded-tl-[74px] bg-[rgb(255,173,173)]/20 p-3'>
+      <div className='aboutImageContent relative z-10 flex flex-col items-start rounded-2xl rounded-bl-[28px] rounded-tl-[74px] bg-[rgb(255,173,173)]/20 p-3'>
         <img
-          className='rounded-bl-[64px] rounded-br-[12px] rounded-tl-[64px] rounded-tr-[8px]'
+          className='h-[500px] w-[700px] rounded-bl-[64px] rounded-br-[12px] rounded-tl-[64px] rounded-tr-[8px] object-cover object-top'
           src='/images/shiren-headshot.jpeg'
           alt=''
         />
-        <img className='-mt-12 w-[182px]' src='/images/people.png' alt='' />
+        <div className='mt-3 flex w-full items-center gap-3'>
+          <img
+            className='w-[182px] object-cover'
+            src='/images/people.png'
+            alt=''
+          />
+          <span className='text-md text-primary-500 font-semibold'>
+            Kickstart Your Microschool Today!
+          </span>
+        </div>
       </div>
     </div>
   );
