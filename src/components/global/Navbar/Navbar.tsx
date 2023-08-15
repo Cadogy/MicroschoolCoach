@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className='relative z-[999] m-auto flex h-[10vh] w-[94%]'>
       <div className='flex w-1/6 translate-x-8 translate-y-4 items-center justify-center'>
-        <a href='/home'>
+        <a href='/'>
           <Image src={logo1} alt='' className='w-full' />
         </a>
       </div>
