@@ -13,9 +13,9 @@ const About = () => {
         <div className='aboutGridContainer'>
           <div className='aboutFlexBox flex max-w-[1620px] flex-row flex-nowrap items-center gap-16 p-8'>
             <div className='aboutFlexBoxContainer flex w-[100%] items-center justify-center'>
-              <div className='aboutImageContent h-[500px] w-[700px]'>
+              <div className='aboutImageContent rounded-[64px] rounded-r-none rounded-br-md rounded-tr-md bg-[rgb(255,173,173)]/20 p-3'>
                 <img
-                  className='h-[500px] w-[700px] rounded-[64px] rounded-tr-[64px] object-cover object-right'
+                  className='h-[500px] w-[700px] rounded-[64px] rounded-r-none rounded-br-md rounded-tr-md object-cover object-right'
                   src='/images/Colossal-Academy-1.jpg'
                   alt=''
                 />
@@ -36,7 +36,7 @@ const About = () => {
                   Lorem ipsum dolor sit amet consectetur adipiscing elit.
                 </p>
               </div>
-              <div className='mt-12 flex w-full flex-col gap-2'>
+              <div className='ml-6 mt-12 flex w-full flex-col gap-2'>
                 {aboutCheckMarks.map((item, index) => (
                   <div className='flex w-full items-center justify-center gap-8 sm:justify-start'>
                     <div className='bg-primary-500 h-[32px] w-[32px] rounded-full'></div>

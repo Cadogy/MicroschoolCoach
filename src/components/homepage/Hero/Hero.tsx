@@ -11,9 +11,7 @@ const Hero = () => {
         </h1>
         <p className='my-[6%] w-full text-[1.5em] leading-[1.25em]'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
         <div className='flex w-full flex-col items-center text-[1.1em] font-semibold lg:flex-row lg:gap-6 xl:text-[1.3em]'>
           <div className=''>
