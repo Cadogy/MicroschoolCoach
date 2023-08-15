@@ -9,10 +9,15 @@ import Seo from '@/components/Seo';
 export default function contact() {
   return (
     <div>
-        <Navbar />
-        <Aboutlayout />
-        <CTA />
-        <Footer />
+      <Seo
+        title='About Shiren | TheMicroschoolCoach'
+        description=''
+        url='/about'
+      />
+      <Navbar />
+      <Aboutlayout />
+      <CTA />
+      <Footer />
     </div>
-  )
+  );
 }
