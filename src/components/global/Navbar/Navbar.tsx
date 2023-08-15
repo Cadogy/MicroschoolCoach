@@ -2,12 +2,13 @@ import React from 'react';
 import logo1 from '/public/images/logo-1.png';
 import Image from 'next/image';
 
-
 const Navbar = () => {
-    return (
+  return (
     <div className='w-full h-[10vh] flex'>
       <div className='w-1/6 flex justify-center items-center translate-x-8 translate-y-4'>
+        <a href="/home">
           <Image src={logo1} alt="" className='w-full' />
+        </a>
       </div>
       <div className='w-full h-full flex items-center font-junge font-semibold text-[24px] text-gray-800'>
         <div className='w-full h-full flex justify-end items-center'>
