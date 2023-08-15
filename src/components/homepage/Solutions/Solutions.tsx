@@ -27,8 +27,8 @@ const Solutions = () => {
       </div>
       <div className='flex flex-wrap justify-center xl:gap-28 lg:gap-20 md:gap-12 gap-10'>
         {coachingSolutions.map((solution, index) => (
-          <div key={index} className='w-[400px] h-[400px] rounded-3xl shadow-xl p-6 flex flex-col justify-between border-2 border-gray-700 hover:rounded-none transition-all group'>
-            <div className='bg-primary-500 w-[60px] h-[60px] rounded-xl group-hover:rounded-none group-hover:scale-110 transition-all'></div>
+          <div key={index} className='w-[400px] h-[400px] rounded-3xl shadow-xl p-6 flex flex-col justify-between hover:rounded-none hover:bg-primary-500/10 border-[1px] border-primary-500  transition-all group'>
+            <div className='bg-primary-500/40 w-[60px] h-[60px] rounded-xl group-hover:rounded-none group-hover:scale-110 border-[1px] border-primary-500/40 group-hover:border-primary-500 transition-all'></div>
             <h3 className='font-junge text-[26px]'>{solution.title}</h3>
             <p>{solution.description}</p>
             <button className='border-2 border-primary-500 rounded-xl py-3 text-primary-500 text-[18px] font-black font-junge hover:bg-primary-500 hover:text-white hover:shadow-md hover:-translate-y-1 transition-all'>
