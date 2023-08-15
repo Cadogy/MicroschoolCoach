@@ -9,7 +9,7 @@ const Hero = () => {
       <div className='relative z-10 flex h-[90vh] w-full flex-col-reverse items-center justify-center px-4 md:flex-row md:gap-16 md:px-12 2xl:gap-24 2xl:px-0'>
         <div className='aboutGridContainer'>
           <div className='aboutFlexBox flex max-w-[90rem] flex-nowrap items-center p-6'>
-            <div className='aboutFlexBoxContainer flex w-[100%] items-center justify-center'>
+            <div className='aboutFlexBoxContainer flex w-[100%] items-center justify-start'>
               <div className='aboutImageContent flex h-[500px] w-[500px] flex-col items-end rounded-2xl rounded-bl-[74px] rounded-tl-[74px] bg-[rgb(255,173,173)]/20 p-3'>
                 <img
                   className='rounded-bl-[64px] rounded-br-[64px] rounded-tl-[64px] rounded-tr-[8px]'
