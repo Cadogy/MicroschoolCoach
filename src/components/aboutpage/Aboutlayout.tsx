@@ -1,17 +1,14 @@
-import React from 'react'
-
-import About from '@/components/homepage/About/About';
-import Accolades from '@/components/homepage/Accolades/Accolades';
-import Hero from '@/components/homepage/Hero/Hero';
-import Solutions from '@/components/homepage/Solutions/Solutions';
-import Testimonials from '@/components/homepage/Testimonials/Testimonials';
+import Hero from '@/components/aboutpage/About/Hero';
+import WhyShiren from '@/components/aboutpage/About/WhyShiren';
+import React from 'react';
 
 const Aboutlayout = () => {
   return (
     <div>
-
+      <Hero />
+      <WhyShiren />
     </div>
-  )
-}
+  );
+};
 
-export default Aboutlayout
+export default Aboutlayout;
