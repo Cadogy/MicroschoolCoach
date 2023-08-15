@@ -4,15 +4,21 @@ import { MdSchool } from 'react-icons/md';
 
 const Hero = () => {
   return (
-    <div>
-      <div className='flex h-[90vh] w-full flex-col-reverse items-center justify-center px-4 md:flex-row md:gap-16 md:px-12 2xl:gap-24 2xl:px-0'>
+    <div className='relative overflow-hidden'>
+      <div className='absolute inset-0 origin-bottom-left transform bg-gradient-to-b from-white to-[rgba(255,173,173,0.2)]'></div>
+      <div className='relative z-10 flex h-[90vh] w-full flex-col-reverse items-center justify-center px-4 md:flex-row md:gap-16 md:px-12 2xl:gap-24 2xl:px-0'>
         <div className='aboutGridContainer'>
           <div className='aboutFlexBox flex max-w-[90rem] flex-nowrap items-center p-6'>
             <div className='aboutFlexBoxContainer flex w-[100%] items-center justify-center'>
-              <div className='aboutImageContent h-[500px] w-[500px]'>
+              <div className='aboutImageContent flex h-[500px] w-[500px] flex-col items-end rounded-2xl rounded-bl-[74px] rounded-tl-[74px] bg-[rgb(255,173,173)]/20 p-3'>
                 <img
-                  className='rounded-bl-[64px] rounded-br-[64px] rounded-tl-[64px]'
+                  className='rounded-bl-[64px] rounded-br-[64px] rounded-tl-[64px] rounded-tr-[8px]'
                   src='/images/shiren-headshot.jpeg'
+                  alt=''
+                />
+                <img
+                  className='-mt-12 w-[182px]'
+                  src='/images/people.png'
                   alt=''
                 />
               </div>

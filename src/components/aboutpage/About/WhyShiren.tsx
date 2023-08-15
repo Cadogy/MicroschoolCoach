@@ -3,7 +3,7 @@ import React from 'react';
 const WhyShiren = () => {
   return (
     <div>
-      <div className='aboutHeroContainer flex flex-col items-center justify-center bg-[rgba(255,173,173,0.3)] py-16'>
+      <div className='aboutHeroContainer flex flex-col items-center justify-center bg-[rgba(255,173,173,0.2)] py-16'>
         <div className='WhyWorkHeaderContainer flex flex-col items-center justify-center'>
           <h1
             id='whyworkheader'
