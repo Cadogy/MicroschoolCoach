@@ -2,12 +2,13 @@ import React from 'react'
 
 const Contactlayout = () => {
   return (
-  <div className="bg-primary-500/30 h-full py-32 flex flex-col items-center mt-2 gap-16 text-gray-700">
-    <div className='w-full flex flex-col justify-center items-center gap-6'>
+  <div className="relative bg-primary-500/30 h-full py-32 flex flex-col items-center gap-16 text-gray-700">
+    <div className='absolute inset-0 origin-bottom-left transform bg-gradient-to-b from-white to-[rgba(255,173,173,0.2)]'></div>
+    <div className='w-full flex flex-col justify-center items-center gap-6 z-[100]'>
         <h1 className='text-[3em] font-junge'>Got <span className='text-primary-500'>Questions</span>? I’ve got <span className='text-primary-500'>Answers</span>.</h1>
-        <p className='w-2/3 text-[1.5em] leading-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. </p>
+        <p className='w-2/3 text-[1.5em] leading-10 max-w-[1000px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. </p>
     </div>
-    <div className="bg-white p-10 md:w-2/3 lg:w-1/2 mx-auto rounded-[1.5rem]">
+    <div className="bg-white p-10 md:w-2/3 lg:w-1/2 mx-auto rounded-[1.5rem] z-[100]">
       <form action="">
 
         <div className="flex items-center mb-5">
