@@ -43,6 +43,16 @@
       U+2215, U+FEFF, U+FFFD;
   }
 
+  @font-face {
+    font-family: 'BlackMango';
+    src: url("/fonts/BlackMango-Regular.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: 'DreamAvenue';
+    src: url("/fonts/DreamAvenue.ttf") format("opentype");
+  }
+
   .cursor-newtab {
     cursor: url('/images/new-tab.png') 10 10, pointer;
   }

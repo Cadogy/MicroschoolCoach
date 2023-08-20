@@ -6,7 +6,7 @@ const WhoIs = () => {
       <div className='WhoIsHeaderContainer flex flex-col items-center justify-center'>
         <h1
           id='whyworkheader'
-          className='mb-4 text-4xl font-bold text-gray-800 md:mb-6'
+          className='mb-4 text-4xl font-bold text-gray-800 md:mb-6 font-blackmango'
         >
           Who is{' '}
           <span className='text-[rgb(255,173,173)]'>Shiren Rattigan</span>?
@@ -30,7 +30,7 @@ const WhoIs = () => {
           </div>
 
           <div className='aboutFlexBoxContainer w-[100%] items-center justify-center'>
-            <p className='text-right text-lg'>
+            <p className='text-right lg:text-2xl text-lg'>
               As an educator of unparalleled expertise, Shiren has been invited
               to share her insights at some of the world's most esteemed
               educational platforms.

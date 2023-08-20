@@ -60,12 +60,11 @@ const Testimonials = () => {
   return (
     <div className='my-32 flex h-full w-full flex-col items-center justify-center'>
       <div className='mb-16 flex max-w-[1200px] flex-col gap-6 text-center'>
-        <h2 className='font-junge text-primary-500 text-[3.5em] font-normal leading-[1.1em]'>
+        <h2 className='font-blackmango text-primary-500 text-[3.5em] font-normal leading-[1.1em]'>
           Coaching <span className='text-[rgb(0,0,0)]'>Success</span> Stories
         </h2>
         <p className='m-auto w-[70ch] px-4 text-[1.5rem] leading-[1.25em]'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Coaching with Shiren has made a difference in the lives ofa myriad of educators. Here's what some of our clients have to say:
         </p>
       </div>
       <div className='mx-auto w-full max-w-3xl text-center'>
@@ -142,7 +141,7 @@ const Testimonials = () => {
               }} // Set active testimonial and disable autorotation
             >
               {/* Display testimonial name and role */}
-              <span>{testimonial.name} </span> <span>{testimonial.role}</span>
+              <span className='font-blackmango'>{testimonial.name} - {testimonial.role}</span>
             </button>
           ))}
         </div>

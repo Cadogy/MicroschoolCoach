@@ -10,13 +10,13 @@ const Newsletter = () => {
         {/* Grid layout for content with 1 column on small screens and 2 columns on larger screens */}
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
           {/* Left column containing subscription form */}
-          <div className="max-w-xl lg:max-w-lg">
+          <div className="lg:max-w-lg">
             {/* Title */}
-            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Subscribe to my newsletter.</h2>
+            <h2 className="text-3xl tracking-widest text-white sm:text-3xl font-blackmango">Subscribe to my newsletter.</h2>
             {/* Description */}
-            <p className="mt-4 text-lg leading-8 text-white">Nostrud amet eu ullamco nisi aute in ad minim nostrud adipisicing velit quis. Duis tempor incididunt dolore.</p>
+            <p className="mt-4 text-lg leading-8 text-white">Stay informed with our weekly articles and insights on education. Subscribe now and never miss an update!</p>
             {/* Subscription form */}
-            <div className="mt-6 flex max-w-md gap-x-4">
+            <div className="mt-6 flex lg:max-w-md gap-x-4">
               <label htmlFor="email-address" className="sr-only">Email address</label>
               <input id="email-address" name="email" type="email" required className="min-w-0 flex-auto rounded-md border-0 bg-white/20 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-1 focus:ring-inset focus:ring-primary-500 sm:text-sm sm:leading-6 placeholder:text-white" placeholder="Enter your email"></input>
               <button type="submit" className="flex-none rounded-md bg-red-400 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-red-400/60 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Subscribe</button>
@@ -33,9 +33,9 @@ const Newsletter = () => {
                 </svg>
               </div>
               {/* Feature title */}
-              <dt className="mt-4 font-semibold text-white">Weekly articles</dt>
+              <dt className="mt-4 font-semibold text-white font-blackmango tracking-widest text-lg">Weekly articles</dt>
               {/* Feature description */}
-              <dd className="mt-2 leading-7 text-white">Non laboris consequat cupidatat laborum magna. Eiusmod non irure cupidatat duis commodo amet.</dd>
+              <dd className="mt-2 leading-7 text-white">Dive into a wealth of enriching content with our weekly articles, thoughtfully curated to ignite inspiration and drive in your teaching journey.</dd>
             </div>
             {/* Second feature */}
             <div className="flex flex-col items-start">
@@ -46,9 +46,9 @@ const Newsletter = () => {
                 </svg>
               </div>
               {/* Feature title */}
-              <dt className="mt-4 font-semibold text-white">No spam</dt>
+              <dt className="mt-4 font-semibold text-white font-blackmango tracking-widest text-lg">No spam</dt>
               {/* Feature description */}
-              <dd className="mt-2 leading-7 text-white">Officia excepteur ullamco ut sint duis proident non adipisicing. Voluptate incididunt anim.</dd>
+              <dd className="mt-2 leading-7 text-white">Rest assured, we prioritize your privacy. Your information is securely guarded, and we promise an inbox free from unsolicited messages.</dd>
             </div>
           </dl>
         </div>

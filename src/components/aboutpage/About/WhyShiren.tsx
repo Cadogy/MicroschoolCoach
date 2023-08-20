@@ -7,12 +7,12 @@ const WhyShiren = () => {
         <div className='WhyWorkHeaderContainer flex flex-col items-center justify-center'>
           <h1
             id='whyworkheader'
-            className='mb-4 text-4xl font-bold text-gray-800 md:mb-6'
+            className='mb-4 text-4xl font-bold text-gray-800 md:mb-6 font-blackmango'
           >
             Why Work with{' '}
             <span className='text-[rgb(255,173,173)]'>Shiren</span>?
           </h1>
-          <p className='mb-12 max-w-[70ch] text-center text-[20px] text-gray-500'>
+          <p className='mb-12 max-w-[70ch] text-center text-[20px] text-gray-700'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
@@ -24,7 +24,7 @@ const WhyShiren = () => {
               src='/images/icons/laptop--v1.png'
               alt=''
             />
-            <p className='mt-4 max-w-[30ch] text-gray-500'>
+            <p className='mt-4 max-w-[30ch] text-gray-700 font-junge'>
               Lorem ipsum dolor sit amet, consectetur adipiscing
             </p>
           </div>
@@ -34,7 +34,7 @@ const WhyShiren = () => {
               src='/images/icons/price-comparison.png'
               alt=''
             />
-            <p className='mt-4 max-w-[30ch] text-gray-500'>
+            <p className='mt-4 max-w-[30ch] text-gray-700 font-junge'>
               Lorem ipsum dolor sit amet, consectetur adipiscing
             </p>
           </div>
@@ -44,7 +44,7 @@ const WhyShiren = () => {
               src='/images/icons/expensive-2.png'
               alt=''
             />
-            <p className='mt-4 max-w-[30ch] text-gray-500'>
+            <p className='mt-4 max-w-[30ch] text-gray-700 font-junge'>
               Lorem ipsum dolor sit amet, consectetur adipiscing
             </p>
           </div>
@@ -54,7 +54,7 @@ const WhyShiren = () => {
               src='/images/icons/map-marker.png'
               alt=''
             />
-            <p className='mt-4 max-w-[30ch] text-gray-500'>
+            <p className='mt-4 max-w-[30ch] text-gray-700 font-junge'>
               Lorem ipsum dolor sit amet, consectetur adipiscing
             </p>
           </div>

@@ -5,15 +5,12 @@ const Contactlayout = () => {
     <div className='bg-primary-500/30 relative flex h-full flex-col items-center gap-16 py-32 text-gray-700'>
       <div className='absolute inset-0 origin-bottom-left transform bg-gradient-to-b from-white to-[rgba(255,173,173,0.2)]'></div>
       <div className='z-[100] flex w-full flex-col items-center justify-center gap-6'>
-        <h1 className='font-junge text-center text-[3.5em] font-normal'>
+        <h1 className='text-center text-[3.5em] font-normal font-blackmango'>
           Got <span className='text-primary-500'>Questions</span>? I’ve got{' '}
           <span className='text-primary-500'>Answers</span>.
         </h1>
         <p className='m-auto max-w-[968px] text-center text-[1.5em] leading-10'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore.{' '}
+        I'm here to provide you with the answers and clarity you seek. Education is a journey, and I'm here to guide you every step of the way. Whether it's about microschooling, innovative teaching methods, or educational strategies, I'm here to help. Reach out to me for insights that will empower your educational experience.{' '}
         </p>
       </div>
       <div className='z-[100] mx-auto rounded-[1.5rem] bg-white p-10 md:w-2/3 lg:w-[68%]'>
@@ -21,7 +18,7 @@ const Contactlayout = () => {
           <div className='mb-5 flex items-center'>
             <label
               htmlFor='name'
-              className='mr-4 inline-block w-20 text-left text-gray-500'
+              className='mr-4 inline-block w-20 text-left text-gray-700 font-blackmango font-semibold tracking-widest'
             >
               Name
             </label>
@@ -37,7 +34,7 @@ const Contactlayout = () => {
           <div className='mb-5 flex items-center'>
             <label
               htmlFor='email'
-              className='mr-4 inline-block w-20 text-left text-gray-500'
+              className='mr-4 inline-block w-20 text-left text-gray-700 font-blackmango font-semibold tracking-widest'
             >
               Email
             </label>
@@ -53,7 +50,7 @@ const Contactlayout = () => {
           <div className='mb-5 flex items-center'>
             <label
               htmlFor='phone'
-              className='mr-4 inline-block w-20 text-left text-gray-500'
+              className='mr-4 inline-block w-20 text-left text-gray-700 font-blackmango font-semibold tracking-widest'
             >
               Phone
             </label>
@@ -69,7 +66,7 @@ const Contactlayout = () => {
           <div className='mb-10 flex items-center'>
             <label
               htmlFor='message'
-              className='mr-4 inline-block w-20 text-left text-gray-500'
+              className='mr-4 inline-block w-20 text-left text-gray-700 font-blackmango font-semibold tracking-widest'
             >
               Message
             </label>

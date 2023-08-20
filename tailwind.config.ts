@@ -8,6 +8,8 @@ export default {
       fontFamily: {
         primary: ['Inter', ...defaultTheme.fontFamily.sans],
         'junge': ['Junge'],
+        'blackmango': ['BlackMango'],
+        'dreamavenue': ['DreamAvenue'],
       },
       colors: {
         primary: {

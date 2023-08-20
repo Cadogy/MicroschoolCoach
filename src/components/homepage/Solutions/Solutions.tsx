@@ -25,12 +25,11 @@ const Solutions = () => {
   return (
     <div className='flex h-full flex-col items-center justify-center gap-16 py-20 text-gray-700 lg:py-40'>
       <div className='flex max-w-[900px] flex-col gap-6 text-center'>
-        <h2 className='font-junge text-primary-500 text-[3.5em] font-normal leading-[1.1em]'>
+        <h2 className='font-blackmango text-primary-500 text-[3.5em] font-normal leading-[1.1em]'>
           The Perfect Educator Solutions
         </h2>
         <p className='px-4 text-[1.5em] leading-[1.25em]'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Our carefully crafted solutions provide educators with the tools and strategies needed to thrive in today's dynamic educational landscape.
         </p>
       </div>
       <div className='flex flex-wrap justify-center gap-10 md:gap-12 lg:gap-20 xl:gap-28'>

@@ -19,16 +19,16 @@ const Navbar = () => {
             About
           </a>
           <a
-            href='/blog'
-            className='font-junge hover:text-primary-500 px-10 transition-all'
-          >
-            Blog
-          </a>
-          <a
             href='/contact'
             className='font-junge hover:text-primary-500 px-10 transition-all'
           >
             Contact
+          </a>
+          <a
+            href='/blog'
+            className='font-junge hover:text-primary-500 px-10 transition-all'
+          >
+            Blog
           </a>
           <a
             href='/resources'
