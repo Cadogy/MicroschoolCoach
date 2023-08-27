@@ -9,7 +9,7 @@ import Inline from '@/components/global/Calendly/Inline';
 
 const homelayout = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <Hero />
       <Accolades />
       <Solutions />

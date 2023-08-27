@@ -2,18 +2,18 @@ import React from 'react';
 
 const Contactlayout = () => {
   return (
-    <div className='bg-primary-500/30 relative flex h-full flex-col items-center gap-16 py-32 text-gray-700'>
+    <div className='bg-primary-500/30 relative flex h-full flex-col items-center gap-16 lg:py-32 py-12 text-gray-700'>
       <div className='absolute inset-0 origin-bottom-left transform bg-gradient-to-b from-white to-[rgba(255,173,173,0.2)]'></div>
       <div className='z-[100] flex w-full flex-col items-center justify-center gap-6'>
-        <h1 className='text-center text-[3.5em] font-normal font-blackmango'>
+        <h1 className='text-center text-[3.5em] leading-[1em] font-normal font-blackmango mx-4'>
           Got <span className='text-primary-500'>Questions</span>? I’ve got{' '}
           <span className='text-primary-500'>Answers</span>.
         </h1>
-        <p className='m-auto max-w-[968px] text-center text-[1.5em] leading-10'>
+        <p className='m-auto max-w-[968px] text-center md:text-[1.5em] text-[1.15em] leading-6 mx-6'>
         I'm here to provide you with the answers and clarity you seek. Education is a journey, and I'm here to guide you every step of the way. Whether it's about microschooling, innovative teaching methods, or educational strategies, I'm here to help. Reach out to me for insights that will empower your educational experience.{' '}
         </p>
       </div>
-      <div className='z-[100] mx-auto rounded-[1.5rem] bg-white p-10 md:w-2/3 lg:w-[68%]'>
+      <div className='z-[100] ml-6 mr-6 rounded-[1.5rem] bg-white p-10 w-[96%] lg:w-[68%]'>
         <form action=''>
           <div className='mb-5 flex items-center'>
             <label

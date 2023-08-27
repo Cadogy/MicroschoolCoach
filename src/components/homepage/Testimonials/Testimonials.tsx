@@ -58,12 +58,12 @@ const Testimonials = () => {
   }, []);
 
   return (
-    <div className='my-32 flex h-full w-full flex-col items-center justify-center'>
+    <div className='my-16 md:my-32 flex h-full w-full flex-col items-center justify-center'>
       <div className='mb-16 flex max-w-[1200px] flex-col gap-6 text-center'>
-        <h2 className='font-blackmango text-primary-500 text-[3.5em] font-normal leading-[1.1em]'>
+        <h2 className='font-blackmango text-primary-500 text-[3rem] md:text-[3.5em] font-normal leading-[1.1em] px-8'>
           Coaching <span className='text-[rgb(0,0,0)]'>Success</span> Stories
         </h2>
-        <p className='m-auto w-[70ch] px-4 text-[1.5rem] leading-[1.25em]'>
+        <p className='m-auto max-w-[70ch] px-4 text-[1.25rem] md:text-[1.5rem] leading-[1.25em]'>
           Coaching with Shiren has made a difference in the lives ofa myriad of educators. Here's what some of our clients have to say:
         </p>
       </div>
@@ -117,7 +117,7 @@ const Testimonials = () => {
                 beforeEnter={() => heightFix()} // Call a function before entering transition
               >
                 {/* Display testimonial quote */}
-                <div className="text-2xl font-normal text-gray-500 before:content-['\201C'] after:content-['\201D']">
+                <div className="text-2xl font-normal text-gray-500 before:content-['\201C'] after:content-['\201D'] px-10">
                   {testimonial.quote}
                 </div>
               </Transition>
