@@ -2,7 +2,6 @@
 
 <div align="center">
   <img src="/public/images/microschool_github_demo.jpg" alt="MicroschoolCoach Demo" />
-  <p>Empowering educators to create successful microschools and educational institutions</p>
   <p>Developed by <a href="https://www.cadogy.com">Cadogy</a></p>
 </div>
 
